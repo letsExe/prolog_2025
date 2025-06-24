@@ -1,0 +1,19 @@
+Trabalho 1 – Sistema em Prolog para cálculo de trajetos entre cidades
+
+Como executar:
+
+1. Abra o terminal e execute o SWI-Prolog:
+   swipl
+
+2. Carregue o arquivo principal:
+   ?- [main].
+
+3. Inicie o menu:
+   ?- menu.
+
+4. escolhe a opcao com um ponto final 
+Ex: 1.
+
+5.E pra colocar o arquivo tem que estar entre aspas e com ponto final 
+Ex:`teste.txt`. 
+

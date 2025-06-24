@@ -1,0 +1,17 @@
+% Cidade de origem
+cidade_inicial(miami).
+
+% Cidade de destino
+cidade_final(seattle).
+
+% Ligações entre cidades com distância em km (pode usar qualquer unidade de medida)
+ligacao(miami, atlanta, 1065).
+ligacao(atlanta, chicago, 949).
+ligacao(chicago, denver, 1610).
+ligacao(denver, seattle, 2165).
+ligacao(miami, dallas, 2175).
+ligacao(dallas, seattle, 3330).
+ligacao(miami, chicago, 2150).
+ligacao(chicago, seattle, 3333).
+ligacao(atlanta, dallas, 1300).
+ligacao(dallas, denver, 1250).
