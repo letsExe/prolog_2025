@@ -66,7 +66,7 @@ buscar_menor_caminho :-
     ( L = [] -> write('Nenhum caminho encontrado.'), nl
     ; encontrar_menor_caminho(L, C, D), nl,
         write('Menor caminho: '), write(C), nl,
-        write('Distancia: '), write(D), write(' km'), nl
+        write('Distancia: '), write(D), write(' km'), nl, nl
     ).
 
 % Menu Interativo
@@ -77,7 +77,7 @@ menu :-
     write('3 - Buscar Menor Caminho'), nl,
     write('4 - Sair'), nl,
     write('+==========================+'), nl,
-    write('Escolha uma opcao: '), read(Op), nl
+    write('Escolha uma opcao: '), read(Op), nl,
     executar_opcao(Op).
 
 executar_opcao(1) :-
